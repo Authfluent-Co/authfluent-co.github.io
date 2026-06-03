@@ -6,6 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Authfluent</title>
 <link rel="icon" type="image/png" href="icon.png">
+<link rel="manifest" href="manifest.json">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
 <meta name="description" content="Secure your online accounts instantly. Our free web authenticator generates safe 2FA codes directly in your browser with zero installation required.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;600;700;800&display=swap');

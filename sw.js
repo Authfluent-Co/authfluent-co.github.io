@@ -1,4 +1,4 @@
-const CACHE_NAME = 'authfluent-v1';
+const CACHE_NAME = 'authfluent-v2';
 const ASSETS = [
   '/',
   '/index.html',

@@ -1,0 +1,15 @@
+{
+  "short_name": "Authfluent",
+  "name": "Authfluent Authenticator",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "display": "standalone"
+}
